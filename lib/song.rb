@@ -12,13 +12,13 @@ class Song
     @@all
   end
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
   def artist_name
     if self.artist
       self.artist.name
     end
   end
 
-=======
->>>>>>> 9666f00cef9f2c5347080459073246893f363159
+#=======
+#>>>>>>> 9666f00cef9f2c5347080459073246893f363159
 end
