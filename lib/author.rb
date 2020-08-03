@@ -3,6 +3,7 @@ class Author
 
   def initialize(name)
     @name = name
+<<<<<<< HEAD
     @posts = []
   end
 
@@ -24,6 +25,8 @@ class Author
     count = 0
     Post.all.select {|post| count+=1}
     return count
+=======
+>>>>>>> 9666f00cef9f2c5347080459073246893f363159
   end
 
 end
